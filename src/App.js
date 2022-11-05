@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import "bootstrap";
+import "bootstrap/scss/bootstrap.scss";
 import './App.css';
+import react from 'react';
+import SecoundComp from "./SecoundComp.js"
+import Post from "./Post.js"
+import Comment from "./Comment.js"
+import CommentContent from "./CommentContent";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+class App extends react.Component{
+  constructor(props){
+    super(props);
+    this.state = {
+    
+
+    }
+
+  }
+  render() {
+    return (
+
+      <div >
+        <Post />
+        <SecoundComp/>
+        {/* <Comment />
+        <CommentContent /> */}
+      </div>
+
+    );
+
+  }
+
 }
 
 export default App;

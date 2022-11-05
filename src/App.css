@@ -1,7 +1,38 @@
 .App {
-  text-align: center;
-}
+    text-align: center;
 
+}
+.comBtnDiv{
+  margin-top: 100px;
+  
+}
+/* .AddPost{
+  border-radius: 5px;
+  border-color: rgb(12, 96, 12);
+  padding: 2px;
+  height: 35px;
+  width: 150px;
+  background-color: rgb(12, 96, 12);
+  color: #fff;
+
+} */
+
+/* .btn-light{
+  margin-left: 10px;
+} */
+.secComp{
+  width: 500px;
+  height: 100px;
+  border: 1px solid black;
+  padding-left: 5px;
+
+}
+.form-control{
+
+  resize: none;
+ 
+}
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +66,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
